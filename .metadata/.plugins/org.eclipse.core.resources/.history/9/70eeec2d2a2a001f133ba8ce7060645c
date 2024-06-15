@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: management-service
+    
+server:
+  port: 8089
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultUrl: htllp://localhost:8761/eureka

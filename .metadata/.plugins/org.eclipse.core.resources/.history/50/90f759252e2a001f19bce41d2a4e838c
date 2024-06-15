@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: inferance-service
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: htpp://localhost:8761/eureka
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${ramdom.value}}

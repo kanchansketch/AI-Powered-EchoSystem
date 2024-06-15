@@ -1,0 +1,59 @@
+2024-06-15T09:38:10.268+05:30  INFO 3804 --- [service-registry] [restartedMain] i.r.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.7 with PID 3804 (D:\Microservice-AI-Spring-Python-Project\AI-Powered-EchoSystem\Service_Registry\target\classes started by kanch in D:\Microservice-AI-Spring-Python-Project\AI-Powered-EchoSystem\Service_Registry)
+2024-06-15T09:38:10.274+05:30  INFO 3804 --- [service-registry] [restartedMain] i.r.s.ServiceRegistryApplication         : The following 1 profile is active: "dev"
+2024-06-15T09:38:10.389+05:30  INFO 3804 --- [service-registry] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-15T09:38:10.390+05:30  INFO 3804 --- [service-registry] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-15T09:38:12.184+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=81bce24e-15ce-35cb-b5f9-2f6ac61d8208
+2024-06-15T09:38:12.266+05:30  WARN 3804 --- [service-registry] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-06-15T09:38:12.270+05:30  WARN 3804 --- [service-registry] [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-15T09:38:12.986+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-06-15T09:38:13.003+05:30  INFO 3804 --- [service-registry] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-15T09:38:13.004+05:30  INFO 3804 --- [service-registry] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-15T09:38:13.104+05:30  INFO 3804 --- [service-registry] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-15T09:38:13.105+05:30  INFO 3804 --- [service-registry] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2714 ms
+2024-06-15T09:38:14.223+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-06-15T09:38:14.225+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-06-15T09:38:14.481+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-06-15T09:38:14.481+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-06-15T09:38:15.721+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-15T09:38:15.979+05:30  WARN 3804 --- [service-registry] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-15T09:38:16.004+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-15T09:38:16.049+05:30  INFO 3804 --- [service-registry] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-15T09:38:16.049+05:30  INFO 3804 --- [service-registry] [restartedMain] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-06-15T09:38:16.066+05:30  INFO 3804 --- [service-registry] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1718424496065 with initial instances count: 0
+2024-06-15T09:38:16.119+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-06-15T09:38:16.121+05:30  WARN 3804 --- [service-registry] [restartedMain] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-06-15T09:38:16.143+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-06-15T09:38:16.145+05:30  INFO 3804 --- [service-registry] [restartedMain] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-06-15T09:38:16.157+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-06-15T09:38:16.269+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2024-06-15T09:38:16.286+05:30  INFO 3804 --- [service-registry] [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-06-15T09:38:16.286+05:30  INFO 3804 --- [service-registry] [Thread-15] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-06-15T09:38:16.287+05:30  INFO 3804 --- [service-registry] [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-06-15T09:38:16.287+05:30  INFO 3804 --- [service-registry] [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-06-15T09:38:16.288+05:30  INFO 3804 --- [service-registry] [Thread-15] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-06-15T09:38:16.310+05:30  INFO 3804 --- [service-registry] [Thread-15] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-06-15T09:38:16.311+05:30  INFO 3804 --- [service-registry] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2024-06-15T09:38:16.312+05:30  INFO 3804 --- [service-registry] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-06-15T09:38:16.577+05:30  INFO 3804 --- [service-registry] [restartedMain] i.r.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 7.178 seconds (process running for 8.762)
+2024-06-15T09:38:24.834+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15T09:38:24.834+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-15T09:38:24.837+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-15T09:38:30.600+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.602+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2024-06-15T09:38:30.668+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.669+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.710+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.727+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.727+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.732+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.739+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.740+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.737+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-15T09:38:30.795+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2024-06-15T09:38:30.803+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-06-15T09:38:30.820+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-06-15T09:38:30.820+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2024-06-15T09:38:30.821+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-06-15T09:38:30.831+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-06-15T09:38:30.844+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-06-15T09:38:30.846+05:30  INFO 3804 --- [service-registry] [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

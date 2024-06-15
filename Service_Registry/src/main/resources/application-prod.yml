@@ -1,0 +1,15 @@
+spring:
+  application:
+    name : service-registry
+
+  
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false 
+    fetch-registry: false
+    
+logging:
+  file:
+    path: ./app-log

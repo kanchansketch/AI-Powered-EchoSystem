@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: inferance-service
+
+server:
+  port: 8088
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: htpp://localhost:8761/eureka
